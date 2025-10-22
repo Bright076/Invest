@@ -7,54 +7,54 @@
   <title></title>
 </head>
 
-<body>
+<body class="products">
   <div class="container">
     <img src="IMG-20250625-WA0203.jpg">
-    <ul>Amount :10 USDT </ul>
-    <ul>Daily Return : 0.5 USDT </ul>
-    <ul>Duration : 40 days </ul>
-    <ul>Total Returns : 20 USDT  </ul>
+    <ul>Amount :500 USDT </ul>
+    <ul>Daily Return : 15 USDT </ul>
+    <ul>Duration : 50 days </ul>
+    <ul>Total Returns : 750 USDT  </ul>
     <button id="btn">PURCHASE</button>
   </div>
     <div class="container" id="cont1">
     <img src="IMG-20250625-WA0205.jpg">
-    <ul>Amount :30 USDT</ul>
-    <ul>Daily Return : 1 USDT </ul>
-    <ul>Duration : 60 days </ul>
-    <ul>Total Returns : 60 USDT</ul>
+    <ul>Amount :800 USDT</ul>
+    <ul>Daily Return : 20 USDT </ul>
+    <ul>Duration : 55 days </ul>
+    <ul>Total Returns : 1,100 USDT</ul>
     <button id="btn1">PURCHASE</button>
   </div>
     </div>
     <div class="container" id="cont2">
     <img src="IMG-20250625-WA0206.jpg">
-    <ul>Amount :50 USDT</ul>
-    <ul>Daily Return : 2 USDT</ul>
-    <ul>Duration : 60 days </ul>
-    <ul>Total Returns : 120 USDT</ul>
+    <ul>Amount :1,400 USDT</ul>
+    <ul>Daily Return : 30 USDT</ul>
+    <ul>Duration : 65 days </ul>
+    <ul>Total Returns : 1,950 USDT</ul>
     <button id="btn2">PURCHASE</button>
   </div>
     </div>
     <div class="container" id="cont3">
     <img src="IMG-20250625-WA0204.jpg">
-    <ul>Amount :100 USDT</ul>
-    <ul>Daily Return : 4 USDT</ul>
+    <ul>Amount :2,000 USDT</ul>
+    <ul>Daily Return : 40 USDT</ul>
     <ul>Duration : 60 days </ul>
-    <ul>Total Returns : 240 USDT</ul>
+    <ul>Total Returns : 2,400 USDT</ul>
     <button id="btn3">PURCHASE</button>
   </div>
     </div>
     <div class="container" id="cont4">
     <img src="IMG-20250625-WA0202.jpg">
-    <ul>Amount :150 USDT</ul>
-    <ul>Daily Return : 5 USDT</ul>
+    <ul>Amount :2500 USDT</ul>
+    <ul>Daily Return : 50 USDT</ul>
     <ul>Duration : 60 days </ul>
-    <ul>Total Returns : 300 USDT</ul>
+    <ul>Total Returns : 3,000 USDT</ul>
     <button id="btn4">PURCHASE</button>
   </div>
     </div>
     <div class="container" id="cont5">
     <img src="IMG-20250625-WA0207.jpg">
-    <ul>Amount :200 USDT </ul>
+    <ul>Amount :3000 USDT </ul>
     <ul>Daily Return : 6 USDT</ul>
     <ul>Duration : 60 days </ul>
     <ul>Total Returns : 360 USDT</ul>
@@ -236,6 +236,13 @@
   height :30px;
   border-color:transparent;
   border-radius :10px;
+}
+@media (max-width: 1025px) {
+  .products{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+    }
 }
 </style>
 <script>
